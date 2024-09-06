@@ -1,0 +1,68 @@
+body {
+  background-color: #141414;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.card {
+  width: 280px;
+  height: 480px;
+  background-color: #1f1f1f;
+  border-radius: 0.5em;
+  flex-direction: column;
+}
+img {
+  position: relative;
+  width: auto;
+  height: 101px;
+  bottom: -13px;
+  right: -35%;
+  z-index: 900;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+  margin-left: auto;
+}
+h2 {
+  margin: 1;
+  display: grid;
+  place-items: center;
+  color: #ffffff;
+  font-size: 20px;
+}
+h3 {
+  position: relative;
+  font-size: 13px;
+  display: grid;
+  color: rgba(172, 255, 47, 0.76);
+  place-items: center;
+  top: -15px;
+}
+h4 {
+  position: relative;
+  font-size: 14px;
+  display: grid;
+  place-items: center;
+  color: rgb(14, 134, 214);
+  top: -18px;
+}
+.card .botones {
+  position: relative;
+  display: grid;
+  cursor: pointer;
+  border-radius: 20%;
+  right: auto;
+  height: 20px;
+  border: none;
+  background-color: inherit;
+  padding: 0px 12px;
+  z-index: 700;
+  margin: 5px;
+}
