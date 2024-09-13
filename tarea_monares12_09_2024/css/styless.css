@@ -1,0 +1,34 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 50px;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #2e8b57;
+  font-family: "Calibri", sans-serif;
+}
+
+ol.food-list {
+  list-style-type: upper-roman;
+  padding: 0;
+}
+
+.item {
+  margin-bottom: 30px;
+}
+
+.properties-list {
+  list-style-type: square;
+  margin-left: 20px;
+  font-family: "Arial", sans-serif;
+}
+
+img {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
