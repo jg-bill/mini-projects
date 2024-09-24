@@ -1,13 +1,13 @@
 body {
   font-family: "Arial", sans-serif;
   margin: 50px;
-  background-color: #f5f5f5;
-  color: #333;
+  background-color: #a0d839;
+  color: #15074b;
 }
 
 h1 {
   text-align: center;
-  color: #2e8b57;
+  color: #d40043;
   font-family: "Calibri", sans-serif;
 }
 
@@ -31,4 +31,8 @@ img {
   height: auto;
   display: block;
   margin-bottom: 10px;
+}
+
+h4 {
+  color: rgb(96, 105, 8);
 }
