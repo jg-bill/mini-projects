@@ -1,25 +1,10 @@
-header {
-  background-color: brown;
+#mi-pagina {
+  background-color: rgb(38, 174, 192);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
 }
-.forecast {
-  margin: 0;
-  padding: 0.3rem;
-  background-color: #eee;
-}
-
-.forecast > h1,
-.day-forecast {
-  margin: 0.5rem;
-  padding: 0.3rem;
-  font-size: 1.2rem;
-}
-
-.day-forecast {
-  background: green;
-}
-
-.day-forecast > h2,
-.day-forecast > p {
-  margin: 0.2rem;
-  font-size: 1rem;
+.tema-oscuro {
+  background-color: azure;
+  color: blueviolet;
+  font-family: Arial, Helvetica, sans-serif;
 }
