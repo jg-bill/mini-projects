@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styless.css">
+    <script type="text/javascript">
+        var nombre = prompt ("Ingrese sus datos");
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("nombreUsuario").textContent = nombre; 
+        
+        var numero = prompt("Ingrese su número de teléfono");
+        document.getElementById("telefonoUsuario").textContent = numero;
+
+        var dirección = prompt("Ingrese su dirrecion");
+        document.getElementById("dirrecionUsuario").textContent = dirección;
+    
+        var hobby = prompt("Ingrese su hobby");
+        document.getElementById("hobbyUsuario").textContent = hobby;
+    });
+        
+    </script>
+    <script>
+        
+    </script>
+</head>
+<body>
+    <div class="header">
+        <h1>ESTE ES MI CV</h1>
+    </div>
+
+    <div class="main">
+        <p>Este es el contenido de mi CV</p>
+        <p>Mis nombres y apellidos son: <span id="nombreUsuario"></span></p> 
+        <p>Mi número de celular es: <span id="telefonoUsuario"></span></p>
+        <p>Mi dirección es: <span id="dirrecionUsuario"></span> </p>
+        <p>Mi hobby  es: <span id="hobbyUsuario"></span></p>
+
+    </div>
+</body>
+</html>
